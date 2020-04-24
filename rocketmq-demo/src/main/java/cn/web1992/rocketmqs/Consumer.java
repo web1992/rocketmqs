@@ -1,4 +1,4 @@
-package cn.web1992.rocketmq;
+package cn.web1992.rocketmqs;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
@@ -17,7 +17,7 @@ public class Consumer {
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("please_rename_unique_group_name");
 
         // Specify name server addresses.
-        consumer.setNamesrvAddr("localhost:9876");
+        consumer.setNamesrvAddr(Constant.NAME_SRV_ADDR);
 
         // Subscribe one more more topics to consume.
         consumer.subscribe("TopicTest", "*");

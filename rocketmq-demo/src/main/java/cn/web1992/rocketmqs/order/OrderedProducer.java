@@ -1,4 +1,4 @@
-package cn.web1992.rocketmq.order;
+package cn.web1992.rocketmqs.order;
 
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.MQProducer;
