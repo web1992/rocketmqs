@@ -8,6 +8,9 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.commons.cli.PosixParser;
 
+/**
+ * https://www.cnblogs.com/xing901022/p/5608823.html
+ */
 public class CLITest {
     public static void main(String[] args) {
         String[] arg = {"-h", "-c", "config.xml"};
